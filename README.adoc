@@ -6,6 +6,20 @@
 docker build –progress=plain -t ersh/tes-py:1.0 .
 ```
 
+Build for a specific architecture:
+```
+--platform linux/amd64
+```
+or
+```
+--platform linux/arm64
+```
+or
+```
+--platform linux/amd64,linux/arm64
+```
+in case it is supported by the driver
+
 *Run* the docker image with the following command:
 
 ```
