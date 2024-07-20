@@ -1,0 +1,13 @@
+= tes-py
+
+*Build* a docker image with tesseract and python to run OCR on images:
+
+```
+docker build –progress=plain -t ersh/tes-py:1.0 .
+```
+
+*Run* the docker image with the following command:
+
+```
+docker run –rm -v ./in:/wrk/input -v ./out:/wrk/output ersh/tes-py:1.0 "[0-9]" input/sample.png output/result.png
+```
