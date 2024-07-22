@@ -1,3 +1,3 @@
 eng
-ru
-gr
+rus
+grc
